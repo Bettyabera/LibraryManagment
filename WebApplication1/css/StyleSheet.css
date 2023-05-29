@@ -1,0 +1,35 @@
+﻿
+
+.footerlinks {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+#footer1 {
+    background: #6495ED;
+}
+
+.show-password-toggle1 {
+    position: fixed;
+    right:100px;
+    top: 47%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.show-password-toggle {
+    position: fixed;
+    right: 100px;
+    top: 47%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.custom-button {
+    background-color: #6495ED;
+    color: black;
+}
+
