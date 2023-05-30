@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userlogin.aspx.cs" Inherits="WebApplication1.userlogin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        body {
+            background-color: #E6F2FF;
+        }
+        </style>
    
     <script>
         function togglePasswordVisibility() {
