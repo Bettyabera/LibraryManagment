@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adminlogin.aspx" />
+    <Content Include="author.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.3.1.slim.min.js" />
@@ -2134,15 +2135,18 @@
     <Content Include="homepage.aspx" />
     <Content Include="icons\add-user.png" />
     <Content Include="icons\area.png" />
+    <Content Include="icons\author.png" />
     <Content Include="icons\boks.jpg" />
     <Content Include="icons\book.png" />
     <Content Include="icons\borrow.png" />
     <Content Include="icons\digital-inventory.png" />
+    <Content Include="icons\e-books.png" />
     <Content Include="icons\lib.jpg" />
     <Content Include="icons\library.png" />
     <Content Include="icons\security.png" />
     <Content Include="icons\user.png" />
     <Content Include="icons\warning.png" />
+    <Content Include="issuebook.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="signUp.aspx" />
     <Content Include="userlogin.aspx" />
@@ -2157,12 +2161,26 @@
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="author.aspx.cs">
+      <DependentUpon>author.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="author.aspx.designer.cs">
+      <DependentUpon>author.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="homepage.aspx.designer.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="issuebook.aspx.cs">
+      <DependentUpon>issuebook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="issuebook.aspx.designer.cs">
+      <DependentUpon>issuebook.aspx</DependentUpon>
     </Compile>
     <Compile Include="profile.aspx.cs">
       <DependentUpon>profile.aspx</DependentUpon>
