@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="adminlogin.aspx" />
     <Content Include="author.aspx" />
+    <Content Include="bookinventory.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.3.1.slim.min.js" />
@@ -2138,6 +2139,7 @@
     <Content Include="icons\author.png" />
     <Content Include="icons\boks.jpg" />
     <Content Include="icons\book.png" />
+    <Content Include="icons\books %281%29.png" />
     <Content Include="icons\borrow.png" />
     <Content Include="icons\digital-inventory.png" />
     <Content Include="icons\e-books.png" />
@@ -2167,6 +2169,13 @@
     </Compile>
     <Compile Include="author.aspx.designer.cs">
       <DependentUpon>author.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookinventory.aspx.cs">
+      <DependentUpon>bookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookinventory.aspx.designer.cs">
+      <DependentUpon>bookinventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
