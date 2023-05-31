@@ -66,7 +66,7 @@
                                      <i id="password-toggle" class="fas fa-eye show-password-toggle" onclick="togglePasswordVisibility()"></i>
                                    </div>
                                 <div class="form-group">
-                                   <asp:Button class="btn btn-primary btn-block btn-lg custom-button" ID="Button1" runat="server" Text="LogIn" />
+                                    <asp:Button class="btn btn-primary btn-block btn-lg custom-button" ID="Button1" runat="server" Text="LogIn" OnClick="Button1_Click" />
                                      
                                    </div>
                                 <div class="form-group">
