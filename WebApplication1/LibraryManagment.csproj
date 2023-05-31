@@ -2137,6 +2137,7 @@
     <Content Include="icons\add-user.png" />
     <Content Include="icons\area.png" />
     <Content Include="icons\author.png" />
+    <Content Include="icons\avatar.png" />
     <Content Include="icons\boks.jpg" />
     <Content Include="icons\book.png" />
     <Content Include="icons\books %281%29.png" />
@@ -2150,6 +2151,7 @@
     <Content Include="icons\user.png" />
     <Content Include="icons\warning.png" />
     <Content Include="issuebook.aspx" />
+    <Content Include="membermanagment.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="publisher.aspx" />
     <Content Include="signUp.aspx" />
@@ -2192,6 +2194,13 @@
     </Compile>
     <Compile Include="issuebook.aspx.designer.cs">
       <DependentUpon>issuebook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membermanagment.aspx.cs">
+      <DependentUpon>membermanagment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membermanagment.aspx.designer.cs">
+      <DependentUpon>membermanagment.aspx</DependentUpon>
     </Compile>
     <Compile Include="profile.aspx.cs">
       <DependentUpon>profile.aspx</DependentUpon>
