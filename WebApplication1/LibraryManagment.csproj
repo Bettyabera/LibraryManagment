@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adminlogin.aspx" />
+    <Content Include="adminmembermanagment.aspx" />
     <Content Include="author.aspx" />
     <Content Include="bookinventory.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
@@ -2145,6 +2146,7 @@
     <Content Include="icons\e-books.png" />
     <Content Include="icons\lib.jpg" />
     <Content Include="icons\library.png" />
+    <Content Include="icons\people.png" />
     <Content Include="icons\security.png" />
     <Content Include="icons\user.png" />
     <Content Include="icons\warning.png" />
@@ -2162,6 +2164,13 @@
     </Compile>
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminmembermanagment.aspx.cs">
+      <DependentUpon>adminmembermanagment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmembermanagment.aspx.designer.cs">
+      <DependentUpon>adminmembermanagment.aspx</DependentUpon>
     </Compile>
     <Compile Include="author.aspx.cs">
       <DependentUpon>author.aspx</DependentUpon>
